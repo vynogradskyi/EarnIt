@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarnIt.Ninja.WebAPI", "EarnIt.Ninja.WebAPI\EarnIt.Ninja.WebAPI.csproj", "{6CCF8569-2C52-436F-9642-C3895121736D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarnIt.Ninja.Test", "EarnIt.Ninja.Test\EarnIt.Ninja.Test.csproj", "{5ED82362-2BF4-4994-B644-0E040B4723CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{98E0FC6F-D491-44FF-9C17-25FC04DCDC26}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earnit.Ninja.DataAccess", "Earnit.Ninja.DataAccess\Earnit.Ninja.DataAccess.csproj", "{EDDA7A35-BB6D-4F8F-8815-9E5A2F950D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarnIt.Ninja.WebSite", "EarnIt.Ninja.WebSite\EarnIt.Ninja.WebSite.csproj", "{30C78F37-B303-4897-BF19-1F8D93BAD82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarnIt.Ninja.Services", "EarnIt.Ninja.Services\EarnIt.Ninja.Services.csproj", "{F9A1EEE3-23CC-4281-8D47-8CCEF5CA6A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CCF8569-2C52-436F-9642-C3895121736D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCF8569-2C52-436F-9642-C3895121736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCF8569-2C52-436F-9642-C3895121736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCF8569-2C52-436F-9642-C3895121736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED82362-2BF4-4994-B644-0E040B4723CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED82362-2BF4-4994-B644-0E040B4723CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED82362-2BF4-4994-B644-0E040B4723CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED82362-2BF4-4994-B644-0E040B4723CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDA7A35-BB6D-4F8F-8815-9E5A2F950D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDA7A35-BB6D-4F8F-8815-9E5A2F950D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDA7A35-BB6D-4F8F-8815-9E5A2F950D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDA7A35-BB6D-4F8F-8815-9E5A2F950D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C78F37-B303-4897-BF19-1F8D93BAD82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C78F37-B303-4897-BF19-1F8D93BAD82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C78F37-B303-4897-BF19-1F8D93BAD82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C78F37-B303-4897-BF19-1F8D93BAD82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A1EEE3-23CC-4281-8D47-8CCEF5CA6A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A1EEE3-23CC-4281-8D47-8CCEF5CA6A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A1EEE3-23CC-4281-8D47-8CCEF5CA6A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A1EEE3-23CC-4281-8D47-8CCEF5CA6A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
