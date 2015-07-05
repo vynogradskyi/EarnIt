@@ -90,7 +90,7 @@ namespace EarnIt.Ninja.Test.Services
             var kernel = new StandardKernel();
             var userRepositoryMock = new Mock<IRepository<User>>();
             userRepositoryMock.Setup(r => r.Get()).Returns(new List<IEntity>());
-            userRepositoryMock.Setup(r => r.Get(It.IsAny<IEnumerable<int>>())).Returns(new List<IEntity>(){new SynchronizationEntity()});
+            userRepositoryMock.Setup(r => r.Get(It.IsAny<IEnumerable<string>>())).Returns(new List<IEntity>(){new SynchronizationEntity()});
             userRepositoryMock.Setup(r => r.SaveAll(It.IsAny<List<IEntity>>()));
             kernel.Bind<IRepository<User>>().ToConstant(userRepositoryMock.Object);
             var repositoryFactory = new GenericRepositoryFactory(kernel);

@@ -2,6 +2,7 @@
 # compiled source #
 ###################
 /packages/*.*
+EarnIt.Ninja.WebSite/
 *.com
 *.class
 *.dll

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using EarnIt.Ninja.Services.Contract.Entities;
 using EarnIt.Ninja.Services.Contract.Factories;
@@ -42,7 +43,7 @@ namespace EarnIt.Ninja.Services.Implementation.Services
                         syncRequest
                             .Entities
                             .Where(e => e.Type.IsAssignableFrom(localType))
-                            .Select(e => (int) e.Entity.Id)
+                            .Select(e => (string)e.Entity.Id)
                        )
                  );
             }
@@ -68,4 +69,5 @@ namespace EarnIt.Ninja.Services.Implementation.Services
         }
 
     }
+
 }

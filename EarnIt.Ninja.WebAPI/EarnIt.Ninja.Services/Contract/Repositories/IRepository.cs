@@ -10,8 +10,8 @@ namespace EarnIt.Ninja.Services.Contract.Repositories
 
     public interface IRepository
     {
-        List<IEntity> Get();
-        List<IEntity> Get(IEnumerable<int> ids);
+        IEnumerable<IEntity> Get();
+        IEnumerable<IEntity> Get(IEnumerable<string> ids);
         void SaveAll(IEnumerable<IEntity> entities);
     }
 }
